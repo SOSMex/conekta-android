@@ -3,6 +3,8 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 21
     buildToolsVersion '21.1.2'
+    compileOptions.encoding "ISO-8859-1"
+
     defaultConfig {
         minSdkVersion 11
         targetSdkVersion 21
